@@ -1,8 +1,20 @@
 
-div#Textbox {
-    height: 35vh;
+body {
+  height: 100vh; 
+  box-sizing: border-box;
+  background-image: url("http://wallup.net/wp-content/uploads/2016/05/25/239327-vaporwave-glitch_art.jpg") 
+}
+
+
+img{
+    height: 45%;
+}
+
+div#textbox {
+    height: 50%;
     background-image: url("WDhLNTA.jpg");
-    color: paleturquoise;
+    background-size: 100% 100%;
+     color: paleturquoise;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -11,22 +23,27 @@ button {
     border-radius: 25px;
     background: blueviolet;
     padding: 20px; 
-    width: 20%;
-    height: 5vh;
-    bottom: 0px;
-    right: 0px;
-    position: absolute;  
+    box-sizing: border-box;
 }
 
 input {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
     width:80%;
     height: 5vh;
+    box-sizing: border-box;
 }
 
 button:hover {
-     background: rebeccapurple;
-  transition:.5s;
+    background: rebeccapurple;
+}
+
+.mascotMessage {
+      color: blue;
+}
+
+.welcomeMessage {
+     color: royalblue;
+}
+
+.userMessage {
+     color: darkmagenta;
 }
