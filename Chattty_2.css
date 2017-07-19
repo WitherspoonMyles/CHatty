@@ -1,5 +1,4 @@
 
-
 div#Textbox {
     height: 35vh;
     background-image: url("WDhLNTA.jpg");
@@ -27,3 +26,7 @@ input {
     height: 5vh;
 }
 
+button:hover {
+     background: rebeccapurple;
+  transition:.5s;
+}
